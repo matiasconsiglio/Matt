@@ -5,36 +5,44 @@
     padding: 0;  
     border: none;  
 }
-
+html{
+    scroll-padding-top: 325px;
+}
+body{
+    background-color:rgba(240,240,240,1);
+}
+section{
+    height: 100vh;
+}
 .header{
     width: 100%;
-    height: 80px;
+    height: 125px;
     position: fixed;
-    background: rgb(19,19,19);
-background: linear-gradient(180deg, rgba(19,19,19,1) 88%, rgba(255,255,255,1) 100%);
+    top: 0;
+    background: rgb(19,19,19)!important;
+background: linear-gradient(180deg, rgba(19,19,19,1) 88%, rgba(240,240,240,1) 100%)!important;
 }
-
 #logo{
     font-family: 'Press Start 2P', cursive;
     float: left;
-    font-size: 150%;
-    margin-left: 30px;
-    margin-top: 30px;
-    letter-spacing: 4px;
+    font-size: 200%;
+    margin-left: 50px;
+    margin-top: 50px;
+    letter-spacing: 5px;
     color:antiquewhite;
 }
 #menu{
-    font-size: 95%;
-    letter-spacing: 3px;
-    margin-top: 33px;
-    margin-right: 10px;
+    font-size: 125%;
+    letter-spacing: 4px;
+    margin-top: 50px;
+    margin-right: 50px;
     font-family: 'Play', sans-serif;
     
 }
-#menu li{
+#menu  li{
     float: right;
     list-style-type: none;
-    margin-right: 27px;
+    margin-right: 50px;
   
 }
 #menu a{
@@ -45,7 +53,80 @@ background: linear-gradient(180deg, rgba(19,19,19,1) 88%, rgba(255,255,255,1) 10
     border-bottom: antiquewhite 3px solid;
     color: rgb(194,168,130);
 }
+/*
 .active{
     border-bottom: rgb(194,168,130) 3px solid;
+    color: rgb(194,168,130);
+}*/
+/*profile section*/
+.profile-picture-outer{
+    height: 1000px;
+    width: 100%;
+    margin-top: 80px;
+
+}
+.picture-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+.profile-image{
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+}
+.profile-heading{
+    font-family: 'play';
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+/*bio*/
+.bio{
+    height: 1000px;
+    width: 100%;
+    
+}
+.bio-content{
+    width: 33%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 325px;  
+}
+.bio-content h1{
+    font-family: 'Press Start 2P', cursive;
+}
+.bio-content h3, .bio-content p{
+    font-family: 'Play', sans-serif;
+    overflow:overlay;
+}
+
+
+
+
+
+footer{
+    height: 125px;
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    background: rgb(19,19,19)!important;
+background: linear-gradient(0deg, rgba(19,19,19,1) 88%, rgba(240,240,240,1) 100%)!important;
+    float: bottom;
+}
+.social-networks{
+    text-align: center;
+}
+.social-networks > li{
+    display: inline;
+    margin:70px
+}
+.social-networks i{
+    font-size: 250%;
+    padding: 2.75%;
+    color: antiquewhite;
+}
+.social-networks i:hover{
     color: rgb(194,168,130);
 }
