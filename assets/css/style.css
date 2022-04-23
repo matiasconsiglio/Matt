@@ -101,9 +101,13 @@ background: linear-gradient(180deg, rgba(19,19,19,1) 88%, rgba(200,200,200,1) 10
     font-family: 'Play', sans-serif;
     max-width: 100%;
 }
+/*media*/
 
+/*contact*/
 
-
+.end-page-image{
+    float:right
+}
 
 
 footer{
