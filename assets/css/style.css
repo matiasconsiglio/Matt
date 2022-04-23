@@ -9,7 +9,7 @@ html{
     scroll-padding-top: 325px;
 }
 body{
-    background-color:rgba(240,240,240,1);
+    background-color:rgba(200,200,200,1);
 }
 section{
     height: 100vh;
@@ -20,7 +20,7 @@ section{
     position: fixed;
     top: 0;
     background: rgb(19,19,19)!important;
-background: linear-gradient(180deg, rgba(19,19,19,1) 88%, rgba(240,240,240,1) 100%)!important;
+background: linear-gradient(180deg, rgba(19,19,19,1) 88%, rgba(200,200,200,1) 100%)!important;
 }
 #logo{
     font-family: 'Press Start 2P', cursive;
@@ -29,7 +29,7 @@ background: linear-gradient(180deg, rgba(19,19,19,1) 88%, rgba(240,240,240,1) 10
     margin-left: 50px;
     margin-top: 50px;
     letter-spacing: 5px;
-    color:antiquewhite;
+    color:rgb(0,176,253);
 }
 #menu{
     font-size: 125%;
@@ -47,11 +47,11 @@ background: linear-gradient(180deg, rgba(19,19,19,1) 88%, rgba(240,240,240,1) 10
 }
 #menu a{
     text-decoration: none;
-    color: antiquewhite;
+    color: rgb(0,176,253);
 }
 #menu a:hover{
-    border-bottom: antiquewhite 3px solid;
-    color: rgb(194,168,130);
+    border-bottom: rgb(0,176,253) 2px solid;
+    color: rgb(3,126,253);
 }
 /*
 .active{
@@ -89,7 +89,7 @@ background: linear-gradient(180deg, rgba(19,19,19,1) 88%, rgba(240,240,240,1) 10
     
 }
 .bio-content{
-    width: 33%;
+    width:33%;
     margin: 0 auto;
     position: relative;
     margin-top: 325px;  
@@ -99,7 +99,7 @@ background: linear-gradient(180deg, rgba(19,19,19,1) 88%, rgba(240,240,240,1) 10
 }
 .bio-content h3, .bio-content p{
     font-family: 'Play', sans-serif;
-    overflow:overlay;
+    max-width: 100%;
 }
 
 
@@ -120,13 +120,13 @@ background: linear-gradient(0deg, rgba(19,19,19,1) 88%, rgba(240,240,240,1) 100%
 }
 .social-networks > li{
     display: inline;
-    margin:70px
+    margin:125px
 }
 .social-networks i{
     font-size: 250%;
-    padding: 2.75%;
-    color: antiquewhite;
+    color: rgb(0,176,253);
+    margin-top: 50px;
 }
 .social-networks i:hover{
-    color: rgb(194,168,130);
+    color: rgb(3,126,253);
 }
