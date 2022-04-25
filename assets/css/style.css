@@ -20,7 +20,8 @@ section{
     position: fixed;
     top: 0;
     background: rgb(19,19,19)!important;
-background: linear-gradient(180deg, rgba(19,19,19,1) 88%, rgba(200,200,200,1) 100%)!important;
+background: linear-gradient(180deg, rgba(19,19,19,1) 92%, rgba(200,200,200,1) 100%)!important;
+    z-index: 1;
 }
 #logo{
     font-family: 'Press Start 2P', cursive;
@@ -102,11 +103,18 @@ background: linear-gradient(180deg, rgba(19,19,19,1) 88%, rgba(200,200,200,1) 10
     max-width: 100%;
 }
 /*media*/
-
+.youtube-video{
+    margin-left: 50vw;
+    transform: translate(-50%);
+    z-index: 0;
+}
 /*contact*/
-
+.contact{
+    height:750px;
+}
 .end-page-image{
-    float:right
+    float:right;   
+    margin-top:113px;
 }
 
 
