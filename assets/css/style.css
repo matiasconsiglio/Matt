@@ -116,20 +116,58 @@ background: linear-gradient(180deg, rgba(19,19,19,1) 92%, rgba(200,200,200,1) 10
     width:auto;
     left: 100px;
     position: absolute;
+    font-family: 'Press Start 2P', cursive;
+    
 }
 .signup-form{
     margin-top: 30px;
     margin-left: 100px;
-    width: 150px;
+    width: 200px;
     background-color: rgba(19,19,19,60%);
     position:absolute;
-    padding: 30px;
+    padding: 10px;
+    border: 1px solid rgb(19,19,19);
+    border-radius: 1em;
+}
+label{
+    color: rgba(200,200,200,1);
+    display:inline-block;
+    text-align: left;
+    font: 1em 'Play' sans-serif;
+    padding: 2px;
+}
+input, textarea{
+    width: 200px;
+    font: 1em 'Play' sans-serif;
+    padding-top: 7.5px;
+    border-radius: 0.5em;
+}
+textarea{
+    height: 5em;
+}
+input:focus, textarea:focus {
+    border-color: rgba(19,19,19,1);
+    border: 3px;
+}
+.join-button{
+    margin-top:5px;
+    border-radius:2px;
+    padding:10px;
+    text-align:center;
+    font-size:100%;
+    color: rgba(200,200,200,1);
+    display:block;
+    background-color: rgb(19,19,19);
+    border-radius: 0.5em;
+} 
+.join-button:hover{
+    background-color:rgba(200,200,200,1);
+    color: rgb(19,19,19);
 }
 .end-page-image{
     float:right;   
     margin-top:113px;
 }
-
 
 footer{
     height: 125px;
