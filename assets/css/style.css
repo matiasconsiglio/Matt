@@ -19,8 +19,7 @@ section{
     height: 125px;
     position: fixed;
     top: 0;
-    background: rgb(19,19,19)!important;
-background: linear-gradient(180deg, rgba(19,19,19,1) 92%, rgba(200,200,200,1) 100%)!important;
+    background: linear-gradient(180deg, rgba(19,19,19,1) 92%, rgba(200,200,200,1) 100%);
     z-index: 1;
 }
 #logo{
@@ -98,7 +97,7 @@ background: linear-gradient(180deg, rgba(19,19,19,1) 92%, rgba(200,200,200,1) 10
 .bio-content h1{
     font-family: 'Press Start 2P', cursive;
 }
-.bio-content h3, .bio-content p{
+.bio-content h3, .bio-content h4, .bio-content p{
     font-family: 'Play', sans-serif;
     max-width: 100%;
 }
@@ -139,7 +138,10 @@ label{
 input, textarea{
     width: 200px;
     font: 1em 'Play' sans-serif;
-    padding-top: 7.5px;
+    padding-top: 3px;
+    padding-left: 2px
+    ;
+    padding-bottom: 3px;
     border-radius: 0.5em;
 }
 textarea{
@@ -174,8 +176,7 @@ footer{
     width: 100%;
     position: fixed;
     bottom:0;
-    background: rgb(19,19,19)!important;
-background: linear-gradient(0deg, rgba(19,19,19,1) 88%, rgba(240,240,240,1) 100%)!important;
+    background: linear-gradient(0deg, rgba(19,19,19,1) 88%, rgba(240,240,240,1) 100%);
     float: bottom;
 }
 .social-networks{
