@@ -1,108 +1,135 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# MaTT
 
-Welcome matiasconsiglio,
+Matt is a personal DJ/Artist webpage. The intention of this webpage is to be able for MaTT to show his information, audiovisual portfolio and to have the possibility to connect with clubs, party organizations or simple individuals that want to connect with him. On the other side the webpage offers value and works as a tool for connecting people who need a Dj with MaTT.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+### Existing Features
 
-## Gitpod Reminders
+Responsive on all device sizes and has interactive elements.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- Navigation Bar
 
-`python3 -m http.server`
+    - Includes links to the logo "MaTT", Home page, Bio, Media and Contact. The Navigation Bar is fixed to the top so the user will be able to access it the whole time.
+    - Will allow the user to travel through the different sections of the page without the need of scrolling.
 
-A blue button should appear to click: _Make Public_,
+![Navigation Bar](/assets/readme-images/logo_menu.png)
+- Home Page
 
-Another blue button should appear to click: _Open Browser_.
+    - Includes a professional photo of MaTT.
+    - Includes a short phrase about music.
+    - This will guide the user to a first approximation and introduction of what MaTT has to offer as a DJ.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![Home](/assets/readme-images/home.png)
+- Bio
 
-A blue button should appear to click: _Make Public_,
+    - Includes nationality and residence of MaTT.
+    - Gives a brief description of the journey of MaTT as a DJ.
+    - Gives an explanation of what makes MaTT a special DJ, what kind of playing style he offers and what he is looking forward to attempting inside the music industry.
 
-Another blue button should appear to click: _Open Browser_.
+![Bio](/assets/readme-images/bio.png)
+- Media
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    - This section works as an audiovisual portfolio that allows the user to listen and watch different music sets from MaTT.
+    - The media shown in this section also works as a link to the music social-media of MaTT, Soundcloud and Youtube.
+    - Finally the user will actually listen and watch what Matt was expressing with words in the Bio, in case of liking it the user will be able to go to the different social-media or contact him directly in the form from the next section.
 
-To log into the Heroku toolbelt CLI:
+![Media Soundcloud](/assets/readme-images/media_1.png)
+![Media Youtube](/assets/readme-images/media_2.png)
+- Contact
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+    - This section works as a tool for connecting the user directly with MaTT.
+    - Requires Full Name, Email and Comments/Ideas to be able to push forward the information to MaTT.
+    - An image of a Pioneer XDJ-RX3 is shown at the end of the page as a hint of what MaTT likes/uses to play. Also used to give positive visual feedback for the user.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![Contact](/assets/readme-images/contact.png)
+- Footer 
 
-------
+    - The Footer includes 3 icons with a direct link to MaTT social-media. Soundcloud, Youtube and Instagram. Links will open in a new tab.
+    - This section works as a tool for connecting the user directly with MaTT through Soundcloud, Youtube or Instagram.
+    - The footer is fixed to the page as the user scrolls, this will help the user in any moment of decision of contact or follow to be there as a direct access.
 
-## Release History
+![Footer](/assets/readme-images/footer.png)
+## Features Left to Implement
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- Creating a Gallery with images of MaTT.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## User Experience (UX)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### User stories as first time visitor goals
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the Artist.
+- As a First Time Visitor, I want to be able to navigate throughout the site in an easy way and be able to understand the content.
+- As a First Time Visitor, I want to look for testimonials from the Artist to learn more about him and the intentions with the webpage. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Testing User Stories from User Experience (UX) Section
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the Artist.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+    - Users are greeted with an image of the Artist plus a phrase from him.
+    - Thanks to the Bio and Media sections the user can learn more from the life of the Artist and also listen/watch some of his work as a DJ. Both of this helps to understand the value of the Artist and his intentions with the webpage.
+    - Thanks to the contact form and the footer the users are able to either get to know more about the Artist or contact him directly.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- As a First Time Visitor, I want to be able to navigate throughout the site in an easy way and be able to understand the content.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+    - The header and the footer will give company to the users while they navigate the whole site, giving them easy access to it and also to get to know more about the Artist or directly contact him.
+    - The content itself of the site is self-explanatory, user-friendly.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- As a First Time Visitor, I want to look for testimonials from the Artist to learn more about him and the intentions with the webpage. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+    - The Bio gives initial information about the artist.
+    - The site gives the opportunity to get to know the artist and the followers thanks to direct links to his social-media accounts.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Testing
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- HTML
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+    - No errors were returned when passing through the official W3C validator.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+![HTML Validator](/assets/readme-images/html_validator.png)
+- CSS
 
-------
+    - No errors were returned when passing through the official W3C validator.
 
-## FAQ about the uptime script
+![CSS Validator](/assets/readme-images/css_validator.png)
+- Web Developer Tool -  Lighthouse 
 
-**Why have you added this script?**
+    - 94% Accessibility.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+![Accessibility Lighthouse](/assets/readme-images/lighthouse.png)
+### Different View by Device
 
-**How will this affect me?**
+- Web
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+![Bio](/assets/readme-images/bio.png)
+- Ipad Air
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+![Bio](/assets/readme-images/ipadair.png)
+- Iphone 12 max
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+![Bio](/assets/readme-images/iphone12pro_bio.png)
+### Unfixed Bugs
 
-**So….?**
+No unfixed bugs found. 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## Deployment
 
-**Can I opt out?**
+- The site was deployed to GitHub pages.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+    - In the GitHub repository, navigate to the Settings tab.
+    - From the source section drop-down menu, select the Master Branch.
+    - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+The live link can be found here - 
 
-**Anything more?**
+## Credits
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- All code was done by the student with the support of Code Institute classes and his mentor. 
 
----
+- All Media content was done and uploaded by the student.
 
-Happy coding!
+- Music used to make the sets and audio for video from media where bought in different pages like "www.beatport.com" or apple music.
+
+- Principal image was taken by Futuro Berg, a professional photographer.
+
+- Pioneer XDJ-RX3 Photo used at the end of the site was obtained from www.pioneerdj.com 
