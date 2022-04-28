@@ -64,7 +64,7 @@ section{
 .profile-picture-outer{
     height: 1000px;
     width: 100%;
-    margin-top: 80px;
+    margin-top:25px;
 }
 .picture-about{
     display: flex;
@@ -91,9 +91,9 @@ section{
 }
 .profile-heading{
     font-family: 'play';
-    text-align: center;
+    float: left;
     position: relative;
-    bottom: 200px;
+    bottom: 180px;
 }
 .bio{
     height: 1000px;
@@ -218,14 +218,10 @@ footer{
     .menu  li{
         margin-right: 20px;  
         }
-    .profile-image{
-        height: 500px;
-        width: 500px;
-        }
-    .profile-picture-outer{
-        margin-top: 25px;
-       }
     .profile-heading{
+        font-family: 'play';
+        text-align: center;
+        position: relative;
         bottom: 180px;
     }
     .bio-content{
