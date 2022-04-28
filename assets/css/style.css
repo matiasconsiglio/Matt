@@ -91,7 +91,7 @@ section{
 }
 .profile-heading{
     font-family: 'play';
-    float: left;
+    text-align: center;
     position: relative;
     bottom: 180px;
 }
@@ -218,12 +218,6 @@ footer{
     .menu  li{
         margin-right: 20px;  
         }
-    .profile-heading{
-        font-family: 'play';
-        text-align: center;
-        position: relative;
-        bottom: 180px;
-    }
     .bio-content{
         width:66%;
     }
