@@ -6,8 +6,13 @@
     border: none;  
 }
 html{
-    scroll-padding-top: 325px;
+    scroll-padding-top: 200px;
 }
+html, body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    }
 body{
     background-color:rgba(200,200,200,1);
 }
@@ -53,23 +58,17 @@ section{
     border-bottom: rgb(0,176,253) 2px solid;
     color: rgb(3,126,253);
 }
-/*
-.active{
-    border-bottom: rgb(194,168,130) 3px solid;
-    color: rgb(194,168,130);
-}*/
-/*profile section*/
 .profile-picture-outer{
     height: 1000px;
     width: 100%;
     margin-top: 80px;
-
 }
 .picture-about{
     display: flex;
     justify-content: center;
     align-items: center;
     height: inherit;
+    margin-top: -75px;
 }
 .profile-image{
     height: 600px;
@@ -102,8 +101,11 @@ section{
     max-width: 100%;
 }
 /*media*/
+.media-content{
+    height: 1250px;
+}
 .youtube-video{
-    margin-left: 50vw;
+    margin-left: 50%;
     transform: translate(-50%);
     z-index: 0;
 }
@@ -113,16 +115,17 @@ section{
 }
 .contact-form > h2 {
     width:auto;
+    margin-top: 25px;
     left: 100px;
     position: absolute;
     font-family: 'Press Start 2P', cursive;
     
 }
 .signup-form{
-    margin-top: 30px;
+    margin-top: 45px;
     margin-left: 100px;
     width: 200px;
-    background-color: rgba(19,19,19,60%);
+    background-color: rgba(19,19,19,80%);
     position:absolute;
     padding: 10px;
     border: 1px solid rgb(19,19,19);
@@ -139,8 +142,7 @@ input, textarea{
     width: 200px;
     font: 1em 'Play' sans-serif;
     padding-top: 3px;
-    padding-left: 2px
-    ;
+    padding-left: 2px;
     padding-bottom: 3px;
     border-radius: 0.5em;
 }
@@ -157,9 +159,9 @@ input:focus, textarea:focus {
     padding:10px;
     text-align:center;
     font-size:100%;
-    color: rgba(200,200,200,1);
+    color: rgba(19,19,19,1);
     display:block;
-    background-color: rgb(19,19,19);
+    background-color: rgb(0,176,253);
     border-radius: 0.5em;
 } 
 .join-button:hover{
@@ -193,4 +195,74 @@ footer{
 }
 .social-networks i:hover{
     color: rgb(3,126,253);
+}
+@media only screen and (max-width:900px){
+    #menu{
+        font-size: 110%;
+        letter-spacing: 3px;
+        margin-top: 55px;
+        margin-right: 70px;
+        }
+    #menu  li{
+        margin-right: 20px;  
+        }
+    .profile-image{
+        height: 500px;
+        width: 500px;
+        }
+    .profile-picture-outer{
+        margin-top: 25px;
+       }
+    .profile-heading{
+        bottom: 180px;
+    }
+    .bio-content{
+        width:66%;
+    }
+    .social-networks > li{
+        margin:75px
+        }
+    .social-networks i{
+        font-size: 200%;
+        margin-top: 55px;
+        }
+}
+@media only screen and (max-width:600px){
+    #logo{
+        font-size: 150%;
+    }
+    #menu{
+        font-size: 100%;
+        letter-spacing: 2px;
+        margin-top: 90px;
+        margin-right: 20px;
+        }
+    #menu  li{
+        margin-right: 20px;
+        }
+    .profile-picture-outer{
+        height: 850px;
+        }
+    .profile-image{
+        height: 300px;
+        width: 300px;
+        }
+    .picture-about{
+        margin: -150px auto;
+        }
+    .profile-heading{
+        bottom: 100px;
+        font-size: 100%;
+    }
+    .bio-content{
+        width: 80%;
+        margin-left: 0 auto;
+    }
+    .social-networks > li{
+        margin:25px
+        }
+    .social-networks i{
+        font-size: 180%;
+        margin-top: 60px;
+        }
 }
