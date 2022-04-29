@@ -110,7 +110,7 @@ Responsive on all device sizes and has interactive elements.
 ![Bio](/assets/readme-images/iphone12pro_bio.png)
 ### Unfixed Bugs
 
-No unfixed bugs found. 
+YouTube video wont play on smartphone. 
 
 ## Deployment
 
