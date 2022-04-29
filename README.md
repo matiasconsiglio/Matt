@@ -110,7 +110,8 @@ Responsive on all device sizes and has interactive elements.
 ![Bio](/assets/readme-images/iphone12pro_bio.png)
 ### Unfixed Bugs
 
-YouTube video wont play on smartphone. 
+- YouTube video wont play on smartphone.
+- Form returns "this form is not secure autofill has been turned off" since it action attribute is "mailto" and not an "https//:" secure server.
 
 ## Deployment
 
@@ -120,7 +121,7 @@ YouTube video wont play on smartphone.
     - From the source section drop-down menu, select the Master Branch.
     - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - 
+The live link can be found here - https://matiasconsiglio.github.io/Matt/
 
 ## Credits
 
